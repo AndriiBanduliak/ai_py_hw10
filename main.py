@@ -13,7 +13,7 @@ import logging
 logging.basicConfig(format='%(asctime)s - %(levelname)s - %(message)s',
                     level=logging.INFO, filename='bot.log', encoding='utf-8')
 
-bot = telebot.TeleBot("5937300797:AAEoGurS7qBkcU-PBzsJNPdogs5ateWVTX8")
+bot = telebot.TeleBot("TOKEN")
 
 
 @bot.message_handler(commands=['start'])
